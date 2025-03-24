@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RS3 Tracker Suite</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+</head>
+<body class="nis">
+  <div class="container mt-3">
+    <ul class="nav nav-tabs" id="trackerTabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="components-tab" data-bs-toggle="tab" href="#components" role="tab">Component Counter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="artefacts-tab" data-bs-toggle="tab" href="#artefacts" role="tab">Artefact Calc</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="seren-tab" data-bs-toggle="tab" href="#seren" role="tab">Seren Logger</a>
+      </li>
+    </ul>
+
+    <div class="tab-content mt-3" id="tabContent">
+      <div class="tab-pane fade show active" id="components" role="tabpanel">
+        <div id="component-ui"></div>
+      </div>
+      <div class="tab-pane fade" id="artefacts" role="tabpanel">
+        <div id="artefact-ui"></div>
+      </div>
+      <div class="tab-pane fade" id="seren" role="tabpanel">
+        <div id="seren-ui"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../dist/main.js"></script>
+</body>
+</html>

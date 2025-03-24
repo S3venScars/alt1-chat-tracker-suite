@@ -1,0 +1,12 @@
+{
+  "appName": "RS3 Tracker Suite",
+  "description": "Combined tracker for Components, Artefacts, and Seren Spirits.",
+  "appUrl": "./index.html",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./icon.png",
+  "defaultWidth": 640,
+  "defaultHeight": 480,
+  "minWidth": 480,
+  "minHeight": 360,
+  "permissions": "pixel,gamestate,overlay"
+}
